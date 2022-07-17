@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainBox{
+    width: 1500px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: relative;
+    margin: 20px auto;
+
+}
+.mainBox .boxYellow{
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    position: absolute;
+    top: 13px;
+    left: 30px;
+    
+}
+.mainBox .boxBigYellow{
+    width: 800px;
+    height: 70px;
+    background-color: yellow;
+    position: absolute;
+    top: 13px;
+    left: 250px;
+} 
+.mainBox .boxBlue1{
+    width: 160px;
+    height: 50px;
+    background-color: rgb(25, 126, 198);
+    position: absolute;
+    left: 60px;
+bottom: 2px;
+}
+.boxBlue1 .boxRed{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+}
+.boxBigYellow .boxBlue2{
+    width: 180px;
+    height: 45px;
+    background-color: rgb(25, 126, 198);
+    position: absolute;
+    left: 300px;
+    bottom: 2px;
+} 
+.boxBigYellow .boxBlue3{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(25, 126, 198);
+    position: absolute;
+   bottom: 2px;
+   right: 25px;
+
+}
+.mainBox .boxYellowLast{
+    width: 100px;
+    height: 70px;
+    background-color: yellow;
+    position: absolute;
+    top: 13px;
+    right: 100px;
+    
+}
+.boxYellowLast .greenBorder{
+    width: 70px;
+    height:  60px;
+    border: 4px solid green;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+}

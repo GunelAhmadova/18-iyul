@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 98%;
+    height: 30%;
+    border: 5px solid ;
+    margin: 0 auto;
+    overflow: auto;
+   
+}
+.title{
+    padding: 10px;
+    
+}
+.main .letter{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(177, 175, 175);
+    position: sticky;
+    top: 0;
+}
